@@ -537,27 +537,6 @@
 <h3 id="powered-by-ai-chatgpt">Powered by AI &amp; ChatGPT<a class="headerlink" href="#powered-by-ai-chatgpt" title="Permanent link">&para;</a></h3>
 <div id="trending-topics">Loading trends...</div>
 
-<script>
-  async function fetchTrendingTopics() {
-      const response = await fetch('trends.json'); // Fetching from the static JSON file
-      const data = await response.json();
-      const container = document.getElementById('trending-topics');
-      container.innerHTML = `
-          <h3>Trending Topics in Gadgets & Technology</h3>
-          <ul>
-              ${data.trends.map(trend => `
-                  <li>
-                      <strong>${trend.title}</strong> - ${trend.description}
-                  </li>
-              `).join('')}
-          </ul>
-          <p>Stay tuned as we update this list in real-time with the most trending topics in gadgets and technology.</p>
-      `;
-  }
-
-  document.addEventListener("DOMContentLoaded", fetchTrendingTopics);
-</script>
-
 <hr />
 <blockquote>
 <p>"The future of tech is always evolving—let's talk about it."</p>
