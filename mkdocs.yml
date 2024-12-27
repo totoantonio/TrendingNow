@@ -25,6 +25,8 @@ theme:
     - content.code.copy
     - previous_next
 
+
+
 extra_css:
   - stylesheets/extra.css # Custom CSS file for additional styling if needed
 
