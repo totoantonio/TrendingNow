@@ -10,6 +10,7 @@ copyright: "Wavelet maintained by <a href=https://github.com/Pittvandewitt>Pittv
 
 theme:
   name: "material"
+  language: "en"
   font:
     text: "Albert Sans" # Specify the font for the text
 
