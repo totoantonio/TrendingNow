@@ -535,48 +535,33 @@
 <hr />
 <h2 id="real-time-trending-results">Real-Time Trending Results<a class="headerlink" href="#real-time-trending-results" title="Permanent link">&para;</a></h2>
 <h3 id="powered-by-ai-chatgpt">Powered by AI &amp; ChatGPT<a class="headerlink" href="#powered-by-ai-chatgpt" title="Permanent link">&para;</a></h3>
-<p>Here’s the <strong>real-time result</strong> of what's trending right now in <strong>gadgets</strong> and <strong>technology</strong>. This is directly powered by AI and ChatGPT’s ability to track the latest tech news and discussions across the web.</p>
-<div class="highlight"><pre><span></span><code><span class="cm">&lt;!-- Displaying ChatGPT Trending Results --&gt;</span>
-<span class="p">&lt;</span><span class="nt">div</span>
-  <span class="na">id</span><span class="o">=</span><span class="s">&quot;chatgpt-trending&quot;</span>
-  <span class="na">style</span><span class="o">=</span><span class="s">&quot;border: 1px solid #eee; padding: 20px; border-radius: 8px;&quot;</span>
-<span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>Trending Topics in Gadgets <span class="err">&amp;</span> Technology<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Here&#39;s what our AI has gathered for today:<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
-    <span class="cm">&lt;!-- Placeholder for real-time results --&gt;</span>
-    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Quantum Computing Advancements<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> - How quantum processors
-      are changing the future of computing.
-    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>AI in Wearable Tech<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> - The latest wearable devices that
-      are harnessing AI to improve user experience.
-    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Foldable Smartphones<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> - The evolution of foldable phones
-      and why they are the next big thing in mobile tech.
-    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Electric Vehicle (EV) Gadgets<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> - The rise of tech
-      innovations in the electric vehicle space.
-    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Augmented Reality Glasses<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> - AR glasses are becoming more
-      practical, with real-world applications beyond gaming.
-    <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
-  <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
-    Stay tuned as we update this list in real-time with the most trending topics
-    in gadgets and technology.
-  <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</code></pre></div>
+<div id="trending-topics">Loading trends...</div>
+
+<script>
+  async function fetchTrendingTopics() {
+      const response = await fetch('trends.json'); // Fetching from the static JSON file
+      const data = await response.json();
+      const container = document.getElementById('trending-topics');
+      container.innerHTML = `
+          <h3>Trending Topics in Gadgets & Technology</h3>
+          <ul>
+              ${data.trends.map(trend => `
+                  <li>
+                      <strong>${trend.title}</strong> - ${trend.description}
+                  </li>
+              `).join('')}
+          </ul>
+          <p>Stay tuned as we update this list in real-time with the most trending topics in gadgets and technology.</p>
+      `;
+  }
+
+  document.addEventListener("DOMContentLoaded", fetchTrendingTopics);
+</script>
+
 <hr />
 <blockquote>
 <p>"The future of tech is always evolving—let's talk about it."</p>
 </blockquote>
-<hr />
 
 
 
