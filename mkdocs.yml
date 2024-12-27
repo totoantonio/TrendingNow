@@ -1,0 +1,46 @@
+site_name: TrendingNow
+site_url: https://totoantonio.github.io/TrendingNow
+site_author: Alfie Superhalk
+site_description: "A quick rundown on each feature and its settings"
+
+repo_name: totoantonio/Wavelet
+repo_url: https://github.com/Pittvandewitt/Wavelet
+
+copyright: "Wavelet maintained by <a href=https://github.com/Pittvandewitt>Pittvandewitt</a>"
+
+theme:
+  name: "material"
+  font:
+    text: "Albert Sans" # Specify the font for the text
+
+  palette:
+    primary: "white"
+    accent: "white"
+    scheme: TrendingNow
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+    - content.code.copy
+    - previous_next
+
+extra_css:
+  - stylesheets/extra.css # Custom CSS file for additional styling if needed
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - attr_list
+
+nav:
+  - About Me: AboutMe.md
+  - Contact: Contact.md
+  - What I Do: Import.md
+  - Settings: Settings.md
+  - Troubleshooting: Troubleshooting.md
