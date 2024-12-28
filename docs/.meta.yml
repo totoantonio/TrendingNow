@@ -1,0 +1,9 @@
+---
+social:
+  cards:
+    title: TrendingNow
+    description: Discover AI-Driven Trends in Gadgets & Technology
+    background_image: assets/social/default_card.png
+    layout: default/variant
+search:
+  exclude: false

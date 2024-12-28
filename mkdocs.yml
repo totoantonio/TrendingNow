@@ -1,55 +1,41 @@
+---
 site_name: TrendingNow
 site_url: https://totoantonio.github.io/TrendingNow/
-site_description: "AI-Driven Trends in Gadgets & Technology"
+site_description: AI-Driven Trends in Gadgets & Technology
 site_author: totoantonio
-
 repo_name: totoantonio/TrendingNow
 repo_url: https://github.com/totoantonio/TrendingNow
-
-copyright: "TrendingNow maintained by <a href=https://github.com/totoantonio>totoantonio</a>"
-
+copyright: TrendingNow maintained by <a
+  href=https://github.com/totoantonio>totoantonio</a>
 theme:
-  name: "material"
-  language: "en"
+  name: material
+  language: en
   font:
-    text: "Poppins" # Specify the font for the text
-
+    text: Poppins
   palette:
-    primary: "white"
-    accent: "white"
+    primary: white
+    accent: white
     scheme: TrendingNow
   logo: assets/favicon.png
   favicon: assets/favicon.png
-
   plugins:
     - search
     - minify:
         minify_html: true
         minify_css: true
-    - social:
-        cards: true
-        cache: false
-        log: true
-        log_level: info
-        cards_layout_options:
-          background_image: docs/assets/social/default_card.png
-
+    - meta: null
+      meta_file: .meta.yml
   features:
     - navigation.footer
     - content.code.copy
     - previous_next
-
 extra_css:
-  - stylesheets/extra.css # Custom CSS file for additional styling if needed
+  - stylesheets/extra.css
 
 markdown_extensions:
-  - toc:
-      permalink: true
-  - pymdownx.tabbed:
-      alternate_style: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.superfences
   - attr_list
 
