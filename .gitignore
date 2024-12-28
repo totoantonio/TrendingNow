@@ -6,6 +6,8 @@ site/
 *.html
 *.xml
 *.gz
-assets/
+docs/assets/*
+!docs/assets/TrendingNow.png
+!docs/assets/TrendingNow.svg
 search/
 stylesheets/

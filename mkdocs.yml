@@ -1,7 +1,7 @@
 site_name: TrendingNow
 site_url: https://totoantonio.github.io/TrendingNow/
-site_author: totoantonio
 site_description: "AI-Driven Trends in Gadgets & Technology"
+site_author: totoantonio
 
 repo_name: totoantonio/TrendingNow
 repo_url: https://github.com/totoantonio/TrendingNow
@@ -21,15 +21,13 @@ theme:
   logo: assets/favicon.png
   favicon: assets/favicon.png
 
-  extra:
-  social:
-    image: assets/TrendingNow.png
-
   plugins:
     - search
     - meta
     - minify
-    - social
+    - social:
+        cards_dir: docs/assets/social
+
   features:
     - navigation.footer
     - content.code.copy
