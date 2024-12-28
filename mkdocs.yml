@@ -18,9 +18,6 @@ theme:
   logo: assets/favicon.png
   favicon: assets/favicon.png
 
-features:
-  - content.color.toggle
-
 plugins:
   - search
   - minify:
@@ -39,14 +36,12 @@ extra:
   site:
     previous_next: true
   material/social:
-    cards_layout_options: # Use cards_layout_options instead of cards
+    cards:
       image: https://totoantonio.github.io/TrendingNow/assets/social/default_card.png
   homepage: https://totoantonio.github.io/TrendingNow/
   analytics:
     provider: google
     property: GTM-TST67ZP9
-extra_css:
-  - styles/extra.css
 
 markdown_extensions:
   - toc:
