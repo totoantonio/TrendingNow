@@ -23,9 +23,12 @@ theme:
 
   extra:
   social:
-    image: assets/TrendingNow.svg
+    image: assets/TrendingNow.png
 
   plugins:
+    - search
+   - meta:
+      enabled: true
     - minify
     - social
   features:
