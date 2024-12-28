@@ -38,6 +38,10 @@ extra:
   material/social:
     cards:
       image: https://totoantonio.github.io/TrendingNow/assets/social/default_card.png
+  homepage: https://totoantonio.github.io/TrendingNow/
+  analytics:
+    provider: google
+    property: GTM-TST67ZP9
 
 markdown_extensions:
   - toc:
