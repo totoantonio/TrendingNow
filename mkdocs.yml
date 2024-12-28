@@ -12,7 +12,7 @@ theme:
   name: "material"
   language: "en"
   font:
-    text: "Albert Sans" # Specify the font for the text
+    text: "Poppins" # Specify the font for the text
 
   palette:
     primary: "white"
@@ -40,8 +40,6 @@ markdown_extensions:
   - attr_list
 
 nav:
-  - About Me: AboutMe.md
+  - Whoami: AboutMe.md
   - Contact: Contact.md
-  - What I Do: Import.md
-  - Settings: Settings.md
-  - Troubleshooting: Troubleshooting.md
+  - What I Do: What I Do.md
