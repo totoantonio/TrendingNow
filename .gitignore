@@ -7,7 +7,7 @@ site/
 *.xml
 *.gz
 docs/assets/*
-!docs/assets/TrendingNow.png
-!docs/assets/TrendingNow.svg
+!docs/assets/social/*
+!docs/assets/social
 search/
 stylesheets/

@@ -23,10 +23,16 @@ theme:
 
   plugins:
     - search
-    - meta
-    - minify
+    - minify:
+        minify_html: true
+        minify_css: true
     - social:
-        cards_dir: docs/assets/social
+        cards: true
+        cache: false
+        log: true
+        log_level: info
+        cards_layout_options:
+          background_image: docs/assets/social/default_card.png
 
   features:
     - navigation.footer
@@ -48,6 +54,7 @@ markdown_extensions:
   - attr_list
 
 nav:
+  - Home: index.md
   - Whoami: AboutMe.md
   - Contact: Contact.md
   - What I Do: What I Do.md
