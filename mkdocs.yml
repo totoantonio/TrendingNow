@@ -27,8 +27,7 @@ theme:
 
   plugins:
     - search
-   - meta:
-      enabled: true
+    - meta
     - minify
     - social
   features:
