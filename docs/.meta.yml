@@ -1,9 +1,17 @@
 ---
-social:
-  cards:
-    title: TrendingNow
-    description: Discover AI-Driven Trends in Gadgets & Technology
-    background_image: assets/social/default_card.png
-    layout: default/variant
+# Open Graph meta tags
+og:
+  title: "TrendingNow - AI-Driven Trends in Gadgets & Technology"
+  description: "Stay updated on the latest trends in gadgets and wearable technology."
+  image: "assets/social/default_card.png"
+  url: "https://totoantonio.github.io/TrendingNow/"
+
+# Twitter Card meta tags
+twitter:
+  card: "summary_large_image"
+  title: "TrendingNow"
+  description: "AI-Driven Trends in Gadgets & Technology"
+  image: "assets/social/default_card.png"
+
 search:
   exclude: false
