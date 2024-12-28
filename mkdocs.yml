@@ -20,6 +20,14 @@ theme:
     scheme: TrendingNow
   logo: assets/favicon.png
   favicon: assets/favicon.png
+
+  extra:
+  social:
+    image: assets/TrendingNow.svg
+
+  plugins:
+    - minify
+    - social
   features:
     - navigation.footer
     - content.code.copy
