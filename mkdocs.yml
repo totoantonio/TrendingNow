@@ -47,6 +47,21 @@ extra:
   analytics:
     provider: google
     property: GTM-TST67ZP9
+  social:
+    - icon: fontawesome/brands/threads
+      link: https://www.threads.net/@your-username
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/your-profile
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/your-username/
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/your-handle
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/your-username
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username
+    - icon: fontawesome/brands/whatsapp
+      link: https://wa.me/yourphonenumber
 
 markdown_extensions:
   - toc:
