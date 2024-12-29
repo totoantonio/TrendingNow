@@ -1,0 +1,97 @@
+site_name: TrendingNow
+site_url: https://totoantonio.github.io/TrendingNow/
+site_description: Stay ahead with AI-driven insights on gadgets and technology! Discover the latest trends, reviews, and innovations shaping the future of tech in the USA. Explore AI-powered solutions for smarter living.
+site_author: totoantonio
+repo_name: totoantonio/TrendingNow
+repo_url: https://github.com/totoantonio/TrendingNow
+copyright: TrendingNow maintained by <a href=https://github.com/totoantonio>totoantonio</a>
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Roboto
+  palette:
+    primary: white
+    accent: white
+    scheme: TrendingNow
+  logo: assets/favicon.png
+  favicon: assets/favicon.png
+  extensions:
+    - material.social
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_css: true
+  - material/social:
+      cards_dir: assets/social
+      cards_layout_options:
+        background_image: assets/social/default_card.png
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - js/subscribe.js
+
+extra:
+  analytics:
+    provider: google
+    property: G-665LE3FDL2
+  feedback:
+    title: Was this page helpful?
+    ratings:
+      - icon: material/emoticon-happy-outline
+        name: This page was helpful
+        data: 1
+        note: >
+          Thanks for your feedback!
+      - icon: material/emoticon-happy-outline + material/emoticon-sad-outline
+        name: This page could be improved
+        data: 0
+        note: >
+          Thanks for your feedback! Help us improve this page by
+          using our <a href="https://forms.gle/97RVbUnvP3rKLhQa9" target="_blank" rel="noopener">feedback form</a>.
+  navigation:
+    footer: true
+  code:
+    copy: true
+  site:
+    previous_next: true
+  material:
+    social:
+      cards:
+        image: https://totoantonio.github.io/TrendingNow/assets/social/default_card.png
+  homepage: https://totoantonio.github.io/TrendingNow/
+  social:
+    - icon: fontawesome/brands/github
+      name: TrendingNow on Github
+    - icon: fontawesome/brands/instagram
+      name: TrendingNow on Instagram
+    - icon: fontawesome/solid/paper-plane
+    - icon: fontawesome/brands/x-twitter
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - attr_list
+
+nav:
+  - Whoareus: index.md
+  - Whoami: AboutMe.md
+  - Whotoreach: Contact.md
+  - Whataido: What I Do.md
