@@ -30,7 +30,8 @@ body {
   white-space: pre-wrap; /* Wrap lines within the code block */
   word-wrap: break-word; /* Break long words */
   overflow-x: auto; /* Ensure any overflowing content is handled */
-  max-width: 100%; /* Ensure code block fits within the container */
+  max-width: 95%; /* Ensure code block fits within the container */ 
+  margin: 0 auto; /* Center the entire block horizontally */
 }
 
 /* Optional: Add padding and background for better readability */
