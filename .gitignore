@@ -1,0 +1,13 @@
+_site
+Gemfile.lock
+.bundles_cache
+/venv
+site/
+*.html
+*.xml
+*.gz
+docs/assets/*
+!docs/assets/social/*
+!docs/assets/social
+search/
+stylesheets/
