@@ -101,3 +101,32 @@ font-weight: 500;
         margin: 0 auto; /* Optional: center within container */
     }
 }
+#subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+#subscribe-form input[type="email"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem; /* Set font size here */
+  font-family: inherit; /* Inherit font from parent */
+  
+}
+
+#subscribe-form button {
+  padding: 10px 20px;
+  background-color: rgb(175, 76, 170);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 1rem;
+  font-family: inherit; /* Example font family - change as needed */
+}
