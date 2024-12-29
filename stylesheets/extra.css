@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Google Sans'; 
+  src: url('../assets/Fonts/GoogleSans-Regular.woff2') format('woff2'),
+       url('../assets/Fonts/GoogleSans-Regular.woff') format('woff'),
+       url('../assets/Fonts/GoogleSans-Regular.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Google Sans', sans-serif; 
+  font-size: 16px;
+  font-weight: 300;
+  color: #202124;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  text-rendering: optimizeLegibility; 
+}
+/* Target bold or strong text within all elements */
+* b, * strong { 
+  font-weight: 600; /* Or 700, depending on your preference */
+  letter-spacing: 0.03em; /* Can slightly improve readability */ 
+}
+
+
+/* Style for code blocks to prevent horizontal scrolling */
+.md-typeset pre {
+  white-space: pre-wrap; /* Wrap lines within the code block */
+  word-wrap: break-word; /* Break long words */
+  overflow-x: auto; /* Ensure any overflowing content is handled */
+  max-width: 95%; /* Ensure code block fits within the container */ 
+  margin: 0 auto; /* Center the entire block horizontally */
+}
+
+/* Optional: Add padding and background for better readability */
+.md-typeset pre {
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-family: 'Google Sans', Courier, monospace;
+  line-height: 1.5;
+}
+
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: -15%; /* Adjust this percentage as needed */
+}
+
+.rounded-image {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+[data-md-color-scheme="TrendingNow"] {
+  --md-primary-fg-color:        #FCFCFC;
+  --md-primary-fg-color--light: #FCFCFC;
+  --md-primary-fg-color--dark:  #1B1B1B;
+}
+
+.md-header__topic:first-child {
+font-weight: 500;
+}
+
+@media (prefers-color-scheme: light) {
+.md-nav__source {
+  background-color: var(--md-primary-fg-color--light);
+}
+}
+
+/* Default styling for larger screens */
+.md-footer .md-social,
+.md-header .md-social {
+    display: flex;
+    justify-content: flex-start; /* Align left by default */
+    gap: 10px;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .md-footer .md-social,
+    .md-header .md-social {
+        justify-content: center; /* Center align for smaller screens */
+        margin: 0 auto; /* Optional: center within container */
+    }
+}
