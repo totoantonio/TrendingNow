@@ -1,4 +1,4 @@
-# <span style="display: none;">Latest Trends in Gadgets and Technology</span>
+# Latest Trends in Gadgets and Technology
 
 <div class="image-container">
   <img src="assets/trending-gadgets-image.png" alt="Explore the Latest Trending Gadgets and Tech Innovations" class="rounded-image"> 
