@@ -1,8 +1,8 @@
-# <span style="display:none;">Latest Trends in Gadgets and Technology</span>
+# <span style="display: none;">Latest Trends in Gadgets and Technology</span>
 
-<p align="center">
-  <img src="assets/trending-gadgets-image.png" alt="Explore the Latest Trending Gadgets and Tech Innovations" />
-</p>
+<div class="image-container">
+  <img src="assets/trending-gadgets-image.png" alt="Explore the Latest Trending Gadgets and Tech Innovations" class="rounded-image"> 
+</div>
 
 Whether you're a tech enthusiast, an early adopter, or simply curious about the latest innovations, you've come to the right place. Stay updated on:
 
@@ -14,6 +14,19 @@ Whether you're a tech enthusiast, an early adopter, or simply curious about the 
 
 We live and breathe technology. From cutting-edge AI-powered wearables to futuristic smart home devices, we bring you the most **innovative**, **exciting**, and **game-changing** trends.
 
-`def ai_insight(): mission = 'discover what's innovative, exciting, and game-changing.' return mission print(ai_insight())`
+```python
+def ai_insight():
+  """
+  This function defines the mission statement for AI insights.
+
+  Returns:
+    str: The AI insight mission statement.
+  """
+  mission = 'discover what\'s innovative, exciting, and game-changing.'
+  return mission
+
+print(ai_insight())
+
+```
 
 We deliver real, insightful tech news without the fluff. If you love gadgets as much as we do, let’s embark on this journey into the future of technology, together.

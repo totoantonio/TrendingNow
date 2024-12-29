@@ -26,6 +26,30 @@ body {
 }
 
 
+/* Style for code blocks */
+pre[class*="language-"] {
+  border-radius: 10px; 
+  overflow: auto; 
+}
+
+.image-container {
+  aspect-ratio: 16 / 9; /* Adjust this ratio as needed */ 
+  margin-top: -10%; /* Adjust this value as needed */
+}
+
+.rounded-image {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.hidden-element {
+  display: none;
+  height: 0; 
+  width: 0; 
+  margin: 0; 
+  padding: 0; 
+}
 
 
 
