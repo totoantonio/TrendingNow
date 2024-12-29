@@ -1,14 +1,15 @@
 # <span style="display:none;">Latest Trends in Gadgets and Technology</span>
 
-<div style="position: relative; text-align: center; width: 100%; max-width: 100%; margin: 0 auto; margin-top: -15%; ">
-  <!-- Background image -->
-  <img src="assets/learnmore.webp" alt="Couple Exploring New Tech Updates" style="width: 100%; height: auto; border-radius: 8px;">
+<div style="position: relative; text-align: center; width: 100%; max-width: 100%; margin: 0 auto; margin-top: -15%;">
+  <picture>
+    <source srcset="assets/learnmore-small.webp 300w, assets/learnmore.webp 1000w" sizes="100vw" type="image/webp">
+    <img src="assets/learnmore.webp" alt="Couple Exploring New Tech Updates" style="width: 100%; height: auto; border-radius: 8px;">
+  </picture>
 
-  <!-- Text section -->
   <div style="position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 800px; padding: 0 20px; z-index: 2; margin-top: 8%;">
     <h1 style="font-size: 2rem; margin-bottom: 0.5rem; color: #000;">We know what is trending.</h1>
     <p style="font-size: 1rem; color: #555; margin: 0;line-height:1.3rem">We bring you the most innovative, exciting, and game-changing trends.</p>
-    <a href="/read-more" style="text-decoration: none; display: inline-block; padding: 10px 20px; margin-top: 20px; background-color:rgb(175, 76, 170); color: white; border-radius: 5px; font-size: 1rem;">Read More →</a>
+    <a href="https://www.instagram.com/aitrends.now/" style="text-decoration: none; display: inline-block; padding: 10px 20px; margin-top: 20px; background-color:rgb(175, 76, 170); color: white; border-radius: 5px; font-size: 1rem;">Learn More →</a>
   </div>
 </div>
 
@@ -47,6 +48,6 @@ We deliver real, insightful tech news without the fluff. If you love gadgets as 
   <div style="position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 800px; padding: 0 20px; z-index: 2;">
     <h1 style="font-size: 2rem; margin-bottom: 0.5rem; color: #000;">Tech Trends 2025</h1>
     <p style="font-size: 1rem; color: #555; margin: 0;line-height:1.3rem">Unlock the future of smart living with cutting-edge innovations.</p>
-    <a href="/read-more" style="text-decoration: none; display: inline-block; padding: 10px 20px; margin-top: 20px; background-color:rgb(175, 76, 170); color: white; border-radius: 5px; font-size: 1rem;">Read More →</a>
+    <a href="https://www.threads.net/@aitrends.now" style="text-decoration: none; display: inline-block; padding: 10px 20px; margin-top: 20px; background-color:rgb(175, 76, 170); color: white; border-radius: 5px; font-size: 1rem;">Jump In →</a>
   </div>
 </div>
