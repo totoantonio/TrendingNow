@@ -5,9 +5,9 @@
   <img src="assets/learnmore.webp" alt="Couple Exploring New Tech Updates" style="width: 100%; height: auto; border-radius: 8px;">
 
   <!-- Text section -->
-  <div style="position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 800px; padding: 0 20px; z-index: 2;">
+  <div style="position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 800px; padding: 0 20px; z-index: 2; margin-top: 8%;">
     <h1 style="font-size: 2rem; margin-bottom: 0.5rem; color: #000;">We know what is trending.</h1>
-    <p style="font-size: 1rem; color: #555; margin: 0;line-height:1.3rem">From cutting-edge AI-powered wearables to futuristic smart home devices, we bring you the most innovative, exciting, and game-changing trends.</p>
+    <p style="font-size: 1rem; color: #555; margin: 0;line-height:1.3rem">We bring you the most innovative, exciting, and game-changing trends.</p>
     <a href="/read-more" style="text-decoration: none; display: inline-block; padding: 10px 20px; margin-top: 20px; background-color:rgb(175, 76, 170); color: white; border-radius: 5px; font-size: 1rem;">Read More →</a>
   </div>
 </div>

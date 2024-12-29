@@ -40,28 +40,28 @@ extra:
     copy: true
   site:
     previous_next: true
-  material/social:
-    cards:
-      image: https://totoantonio.github.io/TrendingNow/assets/social/default_card.png
+  material:
+    social:
+      cards:
+        image: https://totoantonio.github.io/TrendingNow/assets/social/default_card.png
   homepage: https://totoantonio.github.io/TrendingNow/
   analytics:
     provider: google
-    property: GTM-TST67ZP9
-  social:
-    - icon: fontawesome/brands/threads
-      link: https://www.threads.net/@your-username
-    - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/your-profile
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/your-username/
-    - icon: fontawesome/brands/bluesky
-      link: https://bsky.app/profile/your-handle
-    - icon: fontawesome/brands/telegram
-      link: https://t.me/your-username
-    - icon: fontawesome/brands/github
-      link: https://github.com/your-username
-    - icon: fontawesome/brands/whatsapp
-      link: https://wa.me/yourphonenumber
+    property: G-665LE3FDL2
+  feedback:
+    title: Was this page helpful?
+    ratings:
+      - icon: material/emoticon-happy-outline
+        name: This page was helpful
+        data: 1
+        note: >
+          Thanks for your feedback!
+      - icon: material/heart + material/heart-broken
+        name: This page could be improved
+        data: 0
+        note: >
+          Thanks for your feedback! Help us improve this page by
+          using our <a href="https://forms.gle/g1H7Fr9m5V99rSn27" target="_blank" rel="noopener">feedback form</a>.
 
 markdown_extensions:
   - toc:
