@@ -25,15 +25,34 @@ body {
 }
 
 
-/* Style for code blocks */
-pre[class*="language-"] {
-  max-width: 80%; 
-  overflow-x: auto; 
+/* Style for code blocks to prevent horizontal scrolling */
+.md-typeset pre {
+  white-space: pre-wrap; /* Wrap lines within the code block */
+  word-wrap: break-word; /* Break long words */
+  overflow-x: auto; /* Ensure any overflowing content is handled */
+  max-width: 100%; /* Ensure code block fits within the container */
 }
 
-.image-container {
-  aspect-ratio: 16 / 9; /* Adjust this ratio as needed */ 
+/* Optional: Add padding and background for better readability */
+.md-typeset pre {
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-family: 'Google Sans', Courier, monospace;
+  line-height: 1.5;
+}
 
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: -15%; /* Adjust this percentage as needed */
 }
 
 .rounded-image {
@@ -63,4 +82,21 @@ font-weight: 500;
 .md-nav__source {
   background-color: var(--md-primary-fg-color--light);
 }
+}
+
+/* Default styling for larger screens */
+.md-footer .md-social,
+.md-header .md-social {
+    display: flex;
+    justify-content: flex-start; /* Align left by default */
+    gap: 10px;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .md-footer .md-social,
+    .md-header .md-social {
+        justify-content: center; /* Center align for smaller screens */
+        margin: 0 auto; /* Optional: center within container */
+    }
 }
