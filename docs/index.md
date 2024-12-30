@@ -1,9 +1,10 @@
 # <span style="display:none;">Latest Trends in Gadgets and Technology</span>
 
 <div style="position: relative; text-align: center; width: 100%; max-width: 100%; margin: 0 auto; margin-top: -15%;">
+
   <picture>
     <source srcset="assets/learnmore-small.webp 300w, assets/learnmore.webp 1000w" sizes="100vw" type="image/webp">
-    <img src="assets/learnmore.webp" alt="Couple Exploring New Tech Updates" style="width: 100%; height: auto; border-radius: 8px;">
+    <img src="assets/learnmore.webp" alt="Couple Exploring New Tech Updates" width="757" height="859" style="border-radius: 8px;">
   </picture>
 
   <div style="position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 800px; padding: 0 20px; z-index: 2; margin-top: 8%;">
@@ -40,11 +41,8 @@ print(ai_insight())
 
 We deliver real, insightful tech news without the fluff. If you love gadgets as much as we do, let’s embark on this journey into the future of technology, together.
 
-<div style="position: relative; text-align: center; width: 100%; max-width: 100%; margin: 0 auto;">
-  <!-- Background image -->
-  <img src="assets/readmore.webp" alt="Couple Exploring New Tech Updates" style="width: 100%; height: auto; border-radius: 8px;">
+<div style="position: relative; text-align: center; width: 100%; max-width: 100%; margin: 0 auto; background-image: url('assets/learnmore.webp'); background-size: cover; background-position: center;">
 
-  <!-- Text section -->
   <div style="position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%); width: 90%; max-width: 800px; padding: 0 20px; z-index: 2;">
     <h1 style="font-size: 2rem; margin-bottom: 0.5rem; color: #000;">Tech Trends 2025</h1>
     <p style="font-size: 1rem; color: #555; margin: 0;line-height:1.3rem">Unlock the future of smart living with cutting-edge innovations.</p>
