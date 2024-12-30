@@ -85,19 +85,3 @@ font-weight: 500;
 }
 }
 
-/* Default styling for larger screens */
-.md-footer .md-social,
-.md-header .md-social {
-    display: flex;
-    justify-content: flex-start; /* Align left by default */
-    gap: 10px;
-}
-
-/* Adjust for smaller screens */
-@media (max-width: 768px) {
-    .md-footer .md-social,
-    .md-header .md-social {
-        justify-content: center; /* Center align for smaller screens */
-        margin: 0 auto; /* Optional: center within container */
-    }
-}
