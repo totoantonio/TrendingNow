@@ -1,16 +1,14 @@
 site_name: TrendingNow
-site_url: https://totoantonio.github.io/TrendingNow/
+site_url: https://trendingnow.top
 site_description: Stay ahead with AI-driven insights on gadgets and technology! Discover the latest trends, reviews, and innovations shaping the future of tech in the USA. Explore AI-powered solutions for smarter living.
-site_author: totoantonio
+site_author: aitrends.now
 repo_name: totoantonio/TrendingNow
 repo_url: https://github.com/totoantonio/TrendingNow
-copyright: TrendingNow maintained by <a href=https://github.com/totoantonio>totoantonio</a>
+copyright: TrendingNow maintained by <a href=https://trendingnow.top>aitrends.now</a>
 
 theme:
   name: material
   language: en
-  font:
-    text: Roboto
   palette:
     primary: white
     accent: white
@@ -66,6 +64,7 @@ extra:
     - icon: fontawesome/brands/github
       name: TrendingNow on Github
     - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/aitrends.now
       name: TrendingNow on Instagram
     - icon: fontawesome/solid/paper-plane
     - icon: fontawesome/brands/x-twitter
